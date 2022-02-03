@@ -43,11 +43,6 @@ async def cbstart(_, query: CallbackQuery):
                     ),
                     InlineKeyboardButton(
                         "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
-                    ),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/levina-lab/video-stream"
                     )
                 ],
             ]
@@ -72,7 +67,7 @@ async def cbguides(_, query: CallbackQuery):
 
 📌 If the userbot not joined to video chat, make sure if the video chat already turned on and the userbot in the chat.
 
-💡 If you have a follow-up questions about this bot, you can tell it on my support chat here: @{GROUP_SUPPORT}.""",
+💡 If you have a follow-up questions about this bot, you can tell it on my support chat here: @DOST_HAI_SAB""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbstart")]]
         ),
